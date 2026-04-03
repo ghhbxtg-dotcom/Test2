@@ -9,12 +9,12 @@ from telegram.ext import (
 )
 
 # ===== НАСТРОЙКИ =====
-PUBLIC_BOT_TOKEN = os.getenv("PUBLIC_BOT_TOKEN")
-PRIVATE_BOT_TOKEN = os.getenv("PRIVATE_BOT_TOKEN")
+PUBLIC_BOT_TOKEN = os.getenv("8592438297:AAFrnyikG9JFXqNfp46K2W1EeIqZeEnv0BE")
+PRIVATE_BOT_TOKEN = os.getenv("8102004931:AAFoCqyihvkC1JOdUQdWheBYwax8HZapXTk")
 
-OWNER_ID = int(os.getenv("OWNER_ID"))
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
-CHANNEL_LINK = os.getenv("CHANNEL_LINK")
+OWNER_ID = int(os.getenv("6576927659"))
+CHANNEL_ID = int(os.getenv("-1003664705860"))
+CHANNEL_LINK = os.getenv("https://t.me/DeepsyBio")
 
 PORT = int(os.getenv("PORT", 8080))
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
